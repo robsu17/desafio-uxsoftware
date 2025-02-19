@@ -30,8 +30,6 @@ services:
     container_name: api
     expose:
       - "3000"
-    ports:
-      - "3000:3000"
     depends_on:
       - postgres
     networks:
