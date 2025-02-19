@@ -1,5 +1,3 @@
-const url = "http://localhost/api";
-
 const form = document.getElementById("login-form"); 
 const message = document.getElementById("error-message");
 
@@ -14,7 +12,7 @@ form.addEventListener("submit", async function (event) {
     return;
   }
 
-  await fetch(`${url}/user/sign-in`, {
+  await fetch(`/api/user/sign-in`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

@@ -1,4 +1,4 @@
-const url = "http://localhost/api";
+const url = "/api/";
 const token = sessionStorage.getItem("token");
 
 function logout() {
