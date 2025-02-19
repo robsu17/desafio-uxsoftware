@@ -19,7 +19,6 @@ RUN npm install -g pm2@latest
 COPY package.json package-lock.json ./
 
 COPY prisma ./
-COPY .env ./
 
 RUN npm install 
 

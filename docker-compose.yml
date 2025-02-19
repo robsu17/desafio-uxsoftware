@@ -28,6 +28,11 @@ services:
     build: 
       context: ./poupe-mais-api
     container_name: api
+    environment:
+      - NODE_ENV=${NODE_ENV}
+      - PORT=${PORT}
+      - JWT_SECRET=${JWT_SECRET}
+      - DATABASE_URL=${DATABASE_URL}
     expose:
       - "3000"
     depends_on:
@@ -40,9 +45,9 @@ services:
     restart: always
     container_name: db
     environment:
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: root
-      POSTGRES_DB: poupe_mais
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
     ports:
       - 5432:5432
     expose:
