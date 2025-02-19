@@ -17,12 +17,9 @@ git clone https://github.com/robsu17/desafio-uxsoftware.git
 
 ### 2. Configure as variáveis de ambiente
 
-- No backend (poupe-mais-api), copie o conteúdo do arquivo .env.example para um novo arquivo .env:
 ```
 cp .env.example .env
 ```
-- No frontend, faça o mesmo procedimento, se necessário.
-
 ### 3. Execute o Docker compose:
 ```
   docker compose up -d
