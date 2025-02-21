@@ -22,5 +22,5 @@ cp .env.example .env
 ```
 ### 3. Execute o Docker compose:
 ```
-  docker compose up -d
+docker compose up -d
 ```
