@@ -9,16 +9,11 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 | Ferramenta | Descrição |
 |------------|-----------|
 | [Docker](https://www.docker.com/) | Plataforma para criar, implantar e executar containers. |
-| [Docker Compose](https://docs.docker.com/compose/) | Orquestração de múltiplos containers. |
 
 Você pode verificar se o Docker está instalado rodando:  
 ```sh
 docker --version
 ```  
-E para o Docker Compose:  
-```sh
-docker compose version
-```
 
 ---
 
