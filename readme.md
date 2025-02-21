@@ -50,21 +50,4 @@ O projeto estará rodando em: **[http://localhost:8080](http://localhost:8080)**
 
 ---
 
-## 💛 Como parar o projeto  
-Para interromper os containers, utilize:  
-```sh
-docker compose down
-```
-
----
-
-## 📌 Exemplo de requisição  
-Se o proxy reverso estiver configurado corretamente, você pode fazer uma requisição via `curl` para testá-lo:  
-```sh
-curl -i http://localhost:8080
-```
-
-Caso esteja funcionando, você verá a resposta do servidor configurado.  
-
----
 
