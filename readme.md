@@ -24,3 +24,4 @@ cp .env.example .env
 ```
 docker compose up -d
 ```
+E o seu projeto estará rodando http://localhost:8080
